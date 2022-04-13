@@ -1,0 +1,13 @@
+let cities=['Mumbai','Rourkela','Pune'];
+cities[3]='Bhubaneswar';
+cities[4]='Banglore';
+console.log(cities.lenght);
+console.log(cities);
+cities.unshift('Chennai');
+cities.unshift('Delhi');
+cities.push('Kolkata');
+console.log(cities);
+cities.pop();
+cities.pop();
+console.log(cities);
+console.log(cities.lenght);
